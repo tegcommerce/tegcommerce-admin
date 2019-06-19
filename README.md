@@ -71,3 +71,6 @@ npm run lint
 ```bash
 test:lint
 ```
+
+> Have a bug or issue?
+Bugs and issues (even if they only affect the admin client) should be opened on the core tegcommerce repository.
