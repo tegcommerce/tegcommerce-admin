@@ -1,0 +1,28 @@
+@import './Header.variables';
+
+.root {
+  padding-left: $default-padding;
+  padding-right: $default-padding;
+  background-color: $headerBgColor;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 80px;
+  align-items: center;
+}
+
+.contentLeftContainer {
+  display: flex;
+}
+
+.contentCenterContainer {
+  display: flex;
+  flex-basis: 700px;
+}
+
+.contentRightContainer {
+  display: flex;
+}

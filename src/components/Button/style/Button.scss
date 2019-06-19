@@ -1,0 +1,35 @@
+@import "./Button.variables";
+
+.base {
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.default {
+  background-color: $btn-default-bg-color;
+  border-color: $btn-default-bg-color;
+}
+
+.success {
+  background-color: $btn-success-bg-color;
+  color: $btn-success-color;
+  border-color: $btn-success-bg-color;
+}
+
+.danger {
+  background-color: $btn-danger-bg-color;
+  color: $btn-danger-color;
+  border-color: $btn-danger-bg-color;
+}
+
+.warning {
+  background-color: $btn-warning-bg-color;
+  border-color: $btn-warning-bg-color;
+}

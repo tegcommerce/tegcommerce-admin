@@ -1,0 +1,27 @@
+@import "./Footer.variables";
+
+.root {
+  background-color: $footerBgColor;
+  color: $footerColor;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: $default-padding;
+  padding-right: $default-padding;
+  height: $footerHeight;
+}
+
+.footerLeftContainer {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-start;
+}
+
+.footerRightContainer {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}

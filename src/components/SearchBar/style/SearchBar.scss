@@ -1,0 +1,35 @@
+@import '~scss/settings/_global-variables';
+
+.root {
+  flex: 1;
+}
+
+.container {
+  display: flex;
+  align-items: stretch;
+  background-color: $white;
+  padding: 2px;
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  margin-left: $default-padding;
+}
+
+.inputContainer {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex: 1;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border: 0;
+}

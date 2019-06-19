@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewContainer /> Tests should render correctly with footer prop 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div
+        className="headerContainer"
+      >
+        <Connect(HeaderContainer) />
+      </div>
+      <main
+        className="mainContainer"
+      >
+        <h2
+          className="viewTitle"
+        >
+          View Title
+        </h2>
+      </main>
+      <div
+        className="footerContainer"
+      >
+        <div
+          className="footer"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ViewContainer /> Tests should render correctly with header prop 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="header"
+        />
+      </div>
+      <main
+        className="mainContainer"
+      >
+        <h2
+          className="viewTitle"
+        >
+          View Title
+        </h2>
+      </main>
+      <div
+        className="footerContainer"
+      >
+        <FooterContainer />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<ViewContainer /> Tests should render correctly with minimal props 1`] = `
+<div
+  className="root"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div
+        className="headerContainer"
+      >
+        <Connect(HeaderContainer) />
+      </div>
+      <main
+        className="mainContainer"
+      >
+        <h2
+          className="viewTitle"
+        >
+          View Title
+        </h2>
+        <div>
+          content
+        </div>
+      </main>
+      <div
+        className="footerContainer"
+      >
+        <FooterContainer />
+      </div>
+    </div>
+  </div>
+</div>
+`;
