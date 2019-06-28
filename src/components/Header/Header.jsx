@@ -36,11 +36,11 @@ class Header extends PureComponent {
     return (
       <header className={Style.root}>
         <div className={Style.container}>
-          <div className={Style.contentLeftContainer}>logo</div>
+          <div className={Style.contentLeftContainer}>myLogo</div>
           <div className={Style.contentCenterContainer}>
             <SearchBar onSearchFn={onSearchFn} onChangeFn={onChangeSearchFn} />
           </div>
-          <div className={Style.contentRightContainer}>card</div>
+          <div className={Style.contentRightContainer}>myCards</div>
         </div>
       </header>
     );
