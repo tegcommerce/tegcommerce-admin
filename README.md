@@ -16,7 +16,7 @@
 	</a>
   <a href="https://github.com/tegcommerce/tegcommerce/search?l=javascript">
   	<img src="https://img.shields.io/github/languages/top/tegcommerce/tegcommerce.svg">
-	</a>t
+	</a>
   <a href="https://github.com/tegcommerce/tegcommerce/commits/master">
 		<img src="https://img.shields.io/github/last-commit/tegcommerce/tegcommerce.svg">
 	</a>
