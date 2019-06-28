@@ -16,7 +16,7 @@
 	</a>
   <a href="https://github.com/tegcommerce/tegcommerce/search?l=javascript">
   	<img src="https://img.shields.io/github/languages/top/tegcommerce/tegcommerce.svg">
-	</a>
+	</a>t
   <a href="https://github.com/tegcommerce/tegcommerce/commits/master">
 		<img src="https://img.shields.io/github/last-commit/tegcommerce/tegcommerce.svg">
 	</a>
@@ -113,7 +113,7 @@ npm install
 
 ## development mode
 
-> Start a local server
+> start a local server
 
 ```bash
 npm run dev:server
@@ -153,7 +153,7 @@ npm test
 npm test:watch
 ```
 
-> update Jest snapshots
+> update jest snapshots
 
 ```bash
 npm run test:updateSnapshot
@@ -172,6 +172,7 @@ npm run lint
 ```bash
 test:lint
 ```
+
 ## community
 
 any collaboration will be welcome!
