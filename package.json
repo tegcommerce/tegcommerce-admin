@@ -1,7 +1,7 @@
 {
   "name": "tegcommerce-admin",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev:server": "webpack-dashboard -- webpack-dev-server --watch --config build/webpack.dev.config.js --mode=development",
     "prod:server": "webpack-dev-server --watch --config build/webpack.prod.config.js --mode=production",
