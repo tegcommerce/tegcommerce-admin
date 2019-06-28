@@ -37,7 +37,7 @@
 ## requirement
 * git
 * npm (> = 5.x)
-* [node.js](https://nodejs.org/en/)(^v8.x)
+* [node.js](https://nodejs.org/en/) (> = 8.x)
 * reactjs
 
 ## roadmap
